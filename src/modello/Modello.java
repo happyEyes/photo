@@ -29,7 +29,7 @@ public class Modello {
         return this.caratteristicheFoto.getNomeFile();
     }
 
-   public void metodoProva(){
+   public void metodoPippo(){
       prova = "Esempio";
    } 
 }

@@ -10,6 +10,7 @@ public class Modello {
 
     private Map<String, Object> mappaBean = new HashMap<String, Object>();
     private CaratteristicaFoto caratterisiticheFoto;
+    private String prova;
 
     public Modello() {
    
@@ -27,4 +28,8 @@ public class Modello {
    public String toString() {
         return this.caratteristicheFoto.getNomeFile();
     }
+
+   public void metodoProva(){
+      prova = "Esempio";
+   } 
 }
