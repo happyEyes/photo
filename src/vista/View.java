@@ -46,6 +46,17 @@ public class Vista extends javax.swing.JFrame {
         inizializzaAzioni();
     }
     
+
+    public int somma(int x, int y) {
+    	return x+y;
+    }
+
+    public float somma(float x, float y) {
+    	return x-y;
+    }
+
+
+
     public Controllo getControllo() {
         return controllo;
     }
